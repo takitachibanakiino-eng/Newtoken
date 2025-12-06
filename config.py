@@ -10,7 +10,7 @@ from logging.handlers import RotatingFileHandler
 
 
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "5717147729:AAHf-p-YAP5Oyor4xKToTZKlr9TC6Wt1JOY")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "8510283432:AAFPgdMw2Hl4xPEtBYXaKthbknn6bJMq4hA")
 
 #Your API ID from my.telegram.org
 APP_ID = int(os.environ.get("APP_ID", "22505271"))
@@ -19,7 +19,7 @@ APP_ID = int(os.environ.get("APP_ID", "22505271"))
 API_HASH = os.environ.get("API_HASH", "c89a94fcfda4bc06524d0903977fc81e")
 
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001918476761"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1003417792931"))
 
 #OWNER ID
 OWNER_ID = int(os.environ.get("OWNER_ID", "7547485758"))
@@ -28,8 +28,8 @@ OWNER_ID = int(os.environ.get("OWNER_ID", "7547485758"))
 PORT = os.environ.get("PORT", "8080")
 
 #Database 
-DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://poulomig644_db_user:d9MMUd5PsTP5MDFf@cluster0.q5evcku.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
-DB_NAME = os.environ.get("DATABASE_NAME", "Cluster01")
+DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://Takiusername02:Takiusername02@cluster0.zo4sa5k.mongodb.net/?appName=Cluster0")
+DB_NAME = os.environ.get("DATABASE_NAME", "takiusername")
 
 #force sub channel id, if you want enable force sub
 FORCESUB_CHANNEL = int(os.environ.get("FORCESUB_CHANNEL", "0"))
@@ -39,14 +39,14 @@ FORCESUB_CHANNEL3 = int(os.environ.get("FORCESUB_CHANNEL3", "0"))
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 # First shortener settings (used for first verification)
-SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "arolinks.com")
-SHORTLINK_API = os.environ.get("SHORTLINK_API", "2b3dd0b54ab06c6c8e6cf617f20d5fff15ee1b71")
-SHORTLINK_URL_1 = os.environ.get("SHORTLINK_URL_1", "arolinks.com")
-SHORTLINK_API_1 = os.environ.get("SHORTLINK_API_1", "2b3dd0b54ab06c6c8e6cf617f20d5fff15ee1b71")
+SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "")
+SHORTLINK_API = os.environ.get("SHORTLINK_API", "")
+SHORTLINK_URL_1 = os.environ.get("SHORTLINK_URL_1", "")
+SHORTLINK_API_1 = os.environ.get("SHORTLINK_API_1", ")
 
 # Second shortener settings (used for second verification, optional for dual verification)
-SHORTLINK_URL_2 = os.environ.get("SHORTLINK_URL_2", "arolinks.com")
-SHORTLINK_API_2 = os.environ.get("SHORTLINK_API_2", "2b3dd0b54ab06c6c8e6cf617f20d5fff15ee1b71")
+SHORTLINK_URL_2 = os.environ.get("SHORTLINK_URL_2", "")
+SHORTLINK_API_2 = os.environ.get("SHORTLINK_API_2", "")
 
 # Verification expiry times (in seconds)
 VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 86400))  # 24 hours by default
