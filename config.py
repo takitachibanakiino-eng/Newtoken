@@ -58,7 +58,7 @@ VERIFY_GAP_TIME = int(os.environ.get('VERIFY_GAP_TIME', 4000))
 
 VERIFY_IMAGE = os.environ.get("VERIFY_IMAGE", "https://i.ibb.co/HTMRv8Wh/7700112188-f234d295.jpg")
 
-IS_VERIFY = os.environ.get("IS_VERIFY", "True")
+IS_VERIFY = os.environ.get("IS_VERIFY", "False")
 TUT_VID = os.environ.get("TUT_VID", "https://www.youtube.com/@ultroidofficial")
 
 #start message
