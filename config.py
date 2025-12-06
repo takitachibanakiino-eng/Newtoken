@@ -54,7 +54,7 @@ VERIFY_EXPIRE_1 = int(os.environ.get('VERIFY_EXPIRE_1', 0))
 VERIFY_EXPIRE_2 = int(os.environ.get('VERIFY_EXPIRE_2', 0))
 
 # Gap time between first and second verification (in seconds, default 30 mins)
-VERIFY_GAP_TIME = int(os.environ.get('VERIFY_GAP_TIME', 0))
+VERIFY_GAP_TIME = int(os.environ.get('VERIFY_GAP_TIME', 4000))
 
 VERIFY_IMAGE = os.environ.get("VERIFY_IMAGE", "https://i.ibb.co/HTMRv8Wh/7700112188-f234d295.jpg")
 
