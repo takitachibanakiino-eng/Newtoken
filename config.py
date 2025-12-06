@@ -42,7 +42,7 @@ TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "")
 SHORTLINK_API = os.environ.get("SHORTLINK_API", "")
 SHORTLINK_URL_1 = os.environ.get("SHORTLINK_URL_1", "")
-SHORTLINK_API_1 = os.environ.get("SHORTLINK_API_1", ")
+SHORTLINK_API_1 = os.environ.get("SHORTLINK_API_1", "")
 
 # Second shortener settings (used for second verification, optional for dual verification)
 SHORTLINK_URL_2 = os.environ.get("SHORTLINK_URL_2", "")
